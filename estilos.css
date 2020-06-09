@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    
+}
+
+
+nav {
+    color: rgb(238, 223, 238);
+    text-decoration: none;
+    display: flexbox;
+    margin-top: 10px;
+    border: 1px solid oldlace;
+    border-radius:3px ;
+    width: 200px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(238, 130, 238, 0.473);
+
+
+}
+
+
+nav a{
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    padding: 50px;
+    color: white;
+    animation: moverIzquierda 3s ease-in;
+
+}
+
+.boton{
+    color: rgb(238, 223, 238);
+    text-decoration: none;
+    display: flexbox;
+    margin-top: 10px;
+    border: 1px solid oldlace;
+    border-radius:3px ;
+    width: 200px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(238, 130, 238, 0.473);
+
+}
+
+header{
+    background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: auto;
+padding: 48px;
+width: 100%;
+animation: moverIzquierda 3s ease-in;
+}
+
+
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    animation: moverIzquierda 3s ease-in;
+    
+    
+}
+img{
+    display: flexbox;
+    height: 600px;
+    object-fit: cover;
+    width: auto;
+    animation: moverIzquierda 3s ease-in;
+}
+
+
+
+.textos{
+    width: 50%;
+    color: rgb(241, 193, 241);
+    animation: moverIzquierda 3s ease-in;
+}
+.textos h1{
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    text-combine-upright: 10px 0;
+    animation: moverIzquierda 3s ease-in;
+}
+.textos h2{
+    font-size: 30px;
+    color: rgb(251, 240, 255);
+    padding: 50px;
+    white-space: normal;
+    text-decoration-skip: 100px;
+    animation: moverIzquierda 3s ease-in;
+    
+}
+
+
+
+
+.textos a{
+    display: inline block;
+    color: azure;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid oldlace;
+    border-radius:3px ;
+    text-align: center;
+    padding: 10px 0;
+    animation: moverIzquierda 3s ease-in;
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+animation: moverIzquierda 3s ease-in;
+}
+
+@keyframes moverIzquierda{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
